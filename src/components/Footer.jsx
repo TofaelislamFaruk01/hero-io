@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 import logo from "../assets/logo.png";
 const Footer = () => {
   return (
@@ -5,10 +6,11 @@ const Footer = () => {
       {/* Upper Div: Logo + Social Links */}
       <div className="max-w-7xl mx-auto px-6 py-6 flex flex-col sm:flex-row items-center justify-between">
         {/* Left: Logo */}
-        <div className="flex items-center gap-2">
+        <Link to="/" className="flex items-center gap-2 mb-4 sm:mb-0">
+         <div className="flex items-center gap-2">
            <img  className="h-10 w-10" src={logo} alt="HERO.IO Logo" />
           <span className="font-bold text-white text-lg">HERO.IO</span>
-        </div>
+        </div> </Link>
 
         {/* Right: Social Links */}
         <div className="mt-4 sm:mt-0">

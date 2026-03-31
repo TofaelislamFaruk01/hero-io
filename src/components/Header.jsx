@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 import logo from "../assets/logo.png";
 const Header = () => {
   return (
@@ -5,10 +6,12 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-6">
         <div className="flex items-center justify-between h-16">
           {/* Left: Logo */}
+          <Link to="/">
           <div className="flex-shrink-0 flex items-center gap-2">
             <img  className="h-10 w-10" src={logo} alt="HERO.IO Logo" />
             <span className="font-bold bg-gradient-to-r from-purple-500 to-indigo-500 bg-clip-text text-transparent text-xl">HERO.IO</span>
           </div>
+            </Link>
 
           {/* Center: Links */}
           <div className="hidden md:flex space-x-8">

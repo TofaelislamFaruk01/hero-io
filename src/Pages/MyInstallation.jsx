@@ -1,4 +1,3 @@
-import React from "react";
 import apps from "../data/apps.json";
 import InstalledAppCard from "../components/InstalledAppCard";
 

@@ -15,7 +15,7 @@ const AppRouter = () => {
         <Route path="/" element={<App />}>
           <Route index element={<Home />} />
           <Route path="apps" element={<AllApps />} />
-          <Route path="apps/:id" element={<AppDetails />} />
+          <Route path="app-details/:id" element={<AppDetails />} />
           <Route path="installations" element={<MyInstallation />} />
           <Route path="*" element={<ErrorPage />} />
         </Route>

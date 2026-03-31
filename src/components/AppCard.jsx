@@ -1,5 +1,9 @@
+import { Link } from "react-router-dom";
 const AppCard = ({ app }) => {
   return (
+   <>
+   
+   <Link to={`/app-details/${app.id}`}>
     <div className="bg-white rounded-md shadow p-4 flex flex-col">
       {/* App Image */}
       <div className="bg-gray-100 rounded-md mb-2 w-full aspect-square overflow-hidden">
@@ -42,6 +46,8 @@ const AppCard = ({ app }) => {
         </span>
       </div>
     </div>
+    </Link>
+   </>
   );
 };
 
