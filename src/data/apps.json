@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "title": "Spotify",
+    "companyName": "Spotify Ltd",
+    "description": "Music streaming app with millions of songs",
+    "size": 120,
+    "reviews": 12000,
+    "ratingAvg": 4.8,
+    "downloads": 50000000,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg",
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 1000 },
+      { "name": "5 star", "count": 10850 }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Instagram",
+    "companyName": "Meta Platforms",
+    "description": "Photo and video sharing social app",
+    "size": 90,
+    "reviews": 15000,
+    "ratingAvg": 4.6,
+    "downloads": 100000000,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg",
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 600 },
+      { "name": "4 star", "count": 3000 },
+      { "name": "5 star", "count": 11100 }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Twitter",
+    "companyName": "X Corp",
+    "description": "Social media platform to post tweets",
+    "size": 60,
+    "reviews": 8000,
+    "ratingAvg": 4.4,
+    "downloads": 75000000,
+    "image": "https://www.svgrepo.com/show/494187/twitter.svg",
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 250 },
+      { "name": "3 star", "count": 500 },
+      { "name": "4 star", "count": 2500 },
+      { "name": "5 star", "count": 4800 }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Netflix",
+    "companyName": "Netflix Inc",
+    "description": "Watch TV shows and movies online",
+    "size": 150,
+    "reviews": 9000,
+    "ratingAvg": 4.7,
+    "downloads": 60000000,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg",
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 1500 },
+      { "name": "5 star", "count": 6600 }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Slack",
+    "companyName": "Slack Technologies",
+    "description": "Team communication and collaboration",
+    "size": 80,
+    "reviews": 5000,
+    "ratingAvg": 4.5,
+    "downloads": 40000000,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/76/Slack_Icon.png",
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 1200 },
+      { "name": "5 star", "count": 3200 }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Zoom",
+    "companyName": "Zoom Video Communications",
+    "description": "Video conferencing and online meetings",
+    "size": 100,
+    "reviews": 7000,
+    "ratingAvg": 4.6,
+    "downloads": 50000000,
+    "image": "https://www.vectorlogo.zone/logos/zoomus/zoomus-ar21.svg",
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 350 },
+      { "name": "4 star", "count": 1500 },
+      { "name": "5 star", "count": 4800 }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "TikTok",
+    "companyName": "ByteDance",
+    "description": "Create and share short videos",
+    "size": 95,
+    "reviews": 10000,
+    "ratingAvg": 4.3,
+    "downloads": 90000000,
+    "image": "https://www.svgrepo.com/show/473806/tiktok.svg",
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 800 },
+      { "name": "4 star", "count": 3000 },
+      { "name": "5 star", "count": 5500 }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "WhatsApp",
+    "companyName": "Meta Platforms",
+    "description": "Instant messaging and voice calls",
+    "size": 70,
+    "reviews": 15000,
+    "ratingAvg": 4.7,
+    "downloads": 120000000,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg",
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 1500 },
+      { "name": "5 star", "count": 11800 }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Google Maps",
+    "companyName": "Google LLC",
+    "description": "Navigation and maps with live traffic info",
+    "size": 120,
+    "reviews": 25000,
+    "ratingAvg": 4.7,
+    "downloads": 100000000,
+    "image": "https://www.svgrepo.com/show/381002/google-logo-new-maps.svg",
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 1000 },
+      { "name": "4 star", "count": 6000 },
+      { "name": "5 star", "count": 17500 }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Amazon",
+    "companyName": "Amazon.com Inc",
+    "description": "Online shopping app for everything",
+    "size": 150,
+    "reviews": 20000,
+    "ratingAvg": 4.5,
+    "downloads": 90000000,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg",
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 4800 },
+      { "name": "5 star", "count": 13500 }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "description": "Watch and upload videos online",
+    "size": 110,
+    "reviews": 30000,
+    "ratingAvg": 4.8,
+    "downloads": 150000000,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg",
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 1000 },
+      { "name": "4 star", "count": 9000 },
+      { "name": "5 star", "count": 20000 }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Facebook",
+    "companyName": "Meta Platforms",
+    "description": "Connect with friends and family",
+    "size": 100,
+    "reviews": 25000,
+    "ratingAvg": 4.4,
+    "downloads": 120000000,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/05/Facebook_Logo_%282019%29.png",
+    "ratings": [
+      { "name": "1 star", "count": 700 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 8000 },
+      { "name": "5 star", "count": 15000 }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Snapchat",
+    "companyName": "Snap Inc",
+    "description": "Share short-lived photos and videos",
+    "size": 90,
+    "reviews": 12000,
+    "ratingAvg": 4.2,
+    "downloads": 60000000,
+    "image": "https://upload.wikimedia.org/wikipedia/en/c/c4/Snapchat_logo.svg",
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 700 },
+      { "name": "4 star", "count": 4000 },
+      { "name": "5 star", "count": 7200 }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Pinterest",
+    "companyName": "Pinterest Inc",
+    "description": "Discover and save creative ideas",
+    "size": 80,
+    "reviews": 8000,
+    "ratingAvg": 4.5,
+    "downloads": 50000000,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/08/Pinterest-logo.png",
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 2000 },
+      { "name": "5 star", "count": 5550 }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Dropbox",
+    "companyName": "Dropbox Inc",
+    "description": "Cloud storage and file sharing",
+    "size": 75,
+    "reviews": 6000,
+    "ratingAvg": 4.3,
+    "downloads": 40000000,
+    "image": "https://www.svgrepo.com/show/494163/dropbox.svg",
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 2000 },
+      { "name": "5 star", "count": 3500 }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Adobe Photoshop",
+    "companyName": "Adobe Inc",
+    "description": "Professional photo editing software",
+    "size": 200,
+    "reviews": 10000,
+    "ratingAvg": 4.7,
+    "downloads": 30000000,
+    "image": "https://www.svgrepo.com/show/65070/adobe-photoshop.svg",
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 2000 },
+      { "name": "5 star", "count": 7450 }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "LinkedIn",
+    "companyName": "Microsoft Corp",
+    "description": "Professional networking and career development",
+    "size": 85,
+    "reviews": 9000,
+    "ratingAvg": 4.5,
+    "downloads": 50000000,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png",
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 2000 },
+      { "name": "5 star", "count": 6300 }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Telegram",
+    "companyName": "Telegram FZ-LLC",
+    "description": "Cloud-based instant messaging app",
+    "size": 70,
+    "reviews": 12000,
+    "ratingAvg": 4.6,
+    "downloads": 70000000,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg",
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 2500 },
+      { "name": "5 star", "count": 8900 }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Microsoft Teams",
+    "companyName": "Microsoft Corp",
+    "description": "Collaboration and team communication platform",
+    "size": 120,
+    "reviews": 8000,
+    "ratingAvg": 4.4,
+    "downloads": 45000000,
+    "image": "https://www.svgrepo.com/show/448240/microsoft-teams.svg",
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 2000 },
+      { "name": "5 star", "count": 6250 }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Evernote",
+    "companyName": "Evernote Corp",
+    "description": "Note-taking and organization app",
+    "size": 65,
+    "reviews": 7000,
+    "ratingAvg": 4.3,
+    "downloads": 35000000,
+    "image": "https://www.svgrepo.com/show/479435/note-2-with-sentences.svg",
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 2000 },
+      { "name": "5 star", "count": 4520 }
+    ]
+  }
+]

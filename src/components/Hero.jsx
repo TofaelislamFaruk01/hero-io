@@ -1,8 +1,8 @@
 import hero from "../assets/hero.png";
 const Hero = () => {
   return (
-    <div className="hero mt-5 sm:mt-10">
-      <div className="hero-content flex-col text-center">
+    <div className="hero mt-5 sm:mt-10 ">
+      <div className="flex-col text-center">
         {/* Upper Div */}
         <div className="max-w-3xl">
           <h1 className="text-4xl md:text-6xl font-bold text-gray-800">
