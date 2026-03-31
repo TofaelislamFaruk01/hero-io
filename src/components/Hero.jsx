@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 import hero from "../assets/hero.png";
 const Hero = () => {
   return (
@@ -18,17 +19,21 @@ const Hero = () => {
 
           {/* Store Buttons */}
           <div className="flex justify-center gap-4 flex-wrap">
-            <button className="flex items-center text-black gap-2 font-bold px-4 py-2 border rounded-lg bg-white shadow hover:shadow-md">
-              {/* Google Play Icon */}
-              <i className="fa-brands fa-google-play text-green-500"></i>
-              Google Play
-            </button>
+            <Link to="https://play.google.com/store/" target="_blank">
+              <button className="flex items-center text-black gap-2 font-bold px-4 py-2 border rounded-lg bg-white shadow hover:shadow-md">
+                {/* Google Play Icon */}
+                <i className="fa-brands fa-google-play text-green-500"></i>
+                Google Play
+              </button>
+            </Link>
 
-            <button className="flex items-center text-black font-bold gap-2 px-4 py-2 border rounded-lg bg-white shadow hover:shadow-md">
-              {/* Apple Icon */}
-              <i className="fa-brands fa-apple text-gray-500"></i>
-              App Store
-            </button>
+            <Link to="https://apps.apple.com/us/app" target="_blank">
+              <button className="flex items-center text-black font-bold gap-2 px-4 py-2 border rounded-lg bg-white shadow hover:shadow-md">
+                {/* Apple Icon */}
+                <i className="fa-brands fa-apple text-gray-500"></i>
+                App Store
+              </button>
+            </Link>
           </div>
         </div>
 

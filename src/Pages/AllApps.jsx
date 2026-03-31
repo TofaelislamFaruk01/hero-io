@@ -1,13 +1,14 @@
 import React, { useState } from "react";
 import apps from "../data/apps.json";
 import AppCard from "../components/AppCard";
+import AppsNotFound from "../components/AppsNotFound";
 
 const AllApps = () => {
   const [searchTerm, setSearchTerm] = useState("");
 
   // Filter apps based on search term
   const filteredApps = apps.filter((app) =>
-    app.title.toLowerCase().includes(searchTerm.toLowerCase())
+    app.title.includes(searchTerm)
   );
 
   return (
@@ -33,11 +34,14 @@ const AllApps = () => {
       </div>
 
       {/* Apps grid */}
+      {filteredApps.length === 0 ? (
+        <AppsNotFound />
+      ) : (
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {filteredApps.map((app) => (
           <AppCard key={app.id} app={app} />
         ))}
-      </div>
+      </div>)}
     </div>
   );
 };
