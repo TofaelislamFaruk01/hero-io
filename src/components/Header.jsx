@@ -13,19 +13,19 @@ const Header = () => {
           {/* Center: Links */}
           <div className="hidden md:flex space-x-8">
             <a
-              href="#"
+              href="/"
               className="text-black font-medium hover:text-purple-500"
             >
               Home
             </a>
             <a
-              href="#"
+              href="/apps"
               className="text-black font-medium hover:text-purple-500"
             >
               Apps
             </a>
             <a
-              href="#"
+              href="/installation"
               className="text-black font-medium hover:text-purple-500"
             >
               Installation
@@ -79,13 +79,13 @@ const Header = () => {
                 className="dropdown-content menu bg-white shadow rounded mt-2 p-2 w-48"
               >
                 <li>
-                  <a href="#">Home</a>
+                  <a href="/">Home</a>
                 </li>
                 <li>
-                  <a href="#">Apps</a>
+                  <a href="/apps">Apps</a>
                 </li>
                 <li>
-                  <a href="#">Installation</a>
+                  <a href="/installation">Installation</a>
                 </li>
                 <li>
                   <button className="w-full mt-2 px-4 py-2 rounded text-white bg-gradient-to-r from-purple-500 to-indigo-500 hover:from-purple-600 hover:to-indigo-600">

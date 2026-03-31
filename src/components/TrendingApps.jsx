@@ -13,6 +13,11 @@ const TrendingApps = () => {
           <AppCard key={app.id} app={app} />
         ))}
       </div>
+      <button className="mt-8 block mx-auto text-white bg-gradient-to-r from-purple-500 to-indigo-500 px-8 py-3 rounded-lg font-semibold hover:from-purple-600 hover:to-indigo-600 transition-colors">
+       <a href="/apps" className="text-white no-underline">
+         Show All
+       </a>
+      </button>
     </div>
   );
 };
