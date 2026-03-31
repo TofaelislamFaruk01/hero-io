@@ -17,9 +17,9 @@ const InstalledAppCard = ({ app , onUninstall }) => {
   };
 
   return (
-    <div className=" bg-white rounded-lg shadow-sm flex items-center justify-between p-6">
+    <div className=" bg-white rounded-lg shadow-sm flex items-center justify-between p-3 sm:p-6">
       {/* Left Section */}
-      <div className="flex items-center gap-4">
+      <div className="flex items-center gap-1 sm:gap-4">
         <Link to={`/app-details/${app.id}`}>
           {/* App Image */}
           <div className="w-14 h-14 bg-gray-200 rounded-md flex items-center justify-center overflow-hidden">
@@ -36,7 +36,7 @@ const InstalledAppCard = ({ app , onUninstall }) => {
             <h2 className="font-semibold text-black text-md">{app.title}</h2>
           </Link>
 
-          <div className="flex items-center gap-4 text-sm text-gray-500 mt-1">
+          <div className="flex items-center gap-1 sm:gap-4 text-sm text-gray-500 mt-1">
             {/* Downloads */}
             <span className="flex items-center gap-1 text-green-500">
               <i className="fa-solid fa-download"></i>

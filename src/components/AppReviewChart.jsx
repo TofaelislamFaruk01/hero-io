@@ -18,7 +18,7 @@ const AppReviewChart = ({ ratings }) => {
     }));
 
   return (
-    <div className="mt-10 p-6 rounded-lg">
+    <div className="mt-5 sm:mt-10 p-2 rounded-lg">
       {/* <h2 className="text-xl font-semibold text-black mb-4">Ratings</h2> */}
 
       <div className="w-full h-64">

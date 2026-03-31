@@ -26,7 +26,7 @@ const AppDetailsCard = ({ app }) => {
   };
   return (
     <div className="p-6 rounded-lg">
-      <div className="flex gap-6 items-start">
+      <div className="flex flex-col items-center justify-center sm:flex-row gap-6 sm:items-start">
         {/* Left - Big App Image */}
         <div className="w-70 h-70 bg-white rounded-md flex items-center justify-center overflow-hidden">
           <img

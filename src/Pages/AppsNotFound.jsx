@@ -12,11 +12,11 @@ const AppsNotFound = () => {
         The App you are requesting is not found on our system. Please try
         another apps.
       </p>
-      {/* <button className="mt-2 block mx-auto text-white bg-gradient-to-r from-purple-500 to-indigo-500 px-10 py-3 rounded-lg font-semibold hover:from-purple-600 hover:to-indigo-600 transition-colors">
+      <button className="mt-2 block mx-auto text-white bg-gradient-to-r from-purple-500 to-indigo-500 px-10 py-3 rounded-lg font-semibold hover:from-purple-600 hover:to-indigo-600 transition-colors">
         <Link to="/apps" className="text-white no-underline">
           Go Back!
         </Link>
-      </button> */}
+      </button>
     </div>
   );
 };
