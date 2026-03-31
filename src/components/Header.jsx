@@ -25,7 +25,7 @@ const Header = () => {
               Apps
             </a>
             <a
-              href="/installation"
+              href="/installations"
               className="text-black font-medium hover:text-purple-500"
             >
               Installation
@@ -85,7 +85,7 @@ const Header = () => {
                   <a href="/apps">Apps</a>
                 </li>
                 <li>
-                  <a href="/installation">Installation</a>
+                  <a href="/installations">Installation</a>
                 </li>
                 <li>
                   <button className="w-full mt-2 px-4 py-2 rounded text-white bg-gradient-to-r from-purple-500 to-indigo-500 hover:from-purple-600 hover:to-indigo-600">
