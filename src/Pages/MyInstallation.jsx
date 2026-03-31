@@ -56,8 +56,8 @@ const MyInstallation = () => {
               <InstalledAppCard key={app.id} app={app} onUninstall={handleUninstall}/>
             ))
           ) : (
-            <p className="text-center text-gray-500">
-              No apps installed yet 😢
+            <p className="text-center text-gray-500 mt-15">
+              No apps installed yet. Go to the <strong>Apps</strong> page and install your first app!
             </p>
           )}
         </div>
