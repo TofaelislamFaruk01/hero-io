@@ -9,8 +9,8 @@ const ErrorPage = () => {
             <p className='text-md text-gray-500'>The page you are looking for is not available.</p>
           
           <button className="mt-2 block mx-auto text-white bg-gradient-to-r from-purple-500 to-indigo-500 px-10 py-3 rounded-lg font-semibold hover:from-purple-600 hover:to-indigo-600 transition-colors">
-       <Link to="/apps" className="text-white no-underline">
-         Go Back!
+       <Link to="/" className="text-white no-underline">
+         Go Back to Home!
        </Link>
       </button>
        
