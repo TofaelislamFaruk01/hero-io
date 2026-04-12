@@ -9,7 +9,7 @@ Hero IO is a modern and responsive App Store web application where users can exp
 ## 🚀 Live Links
 
 * 🔗 Live Site: https://hero-io-nine-tau.vercel.app/
-* 💻 GitHub Repo: https://github.com/TofaelislamFaruk01
+* 💻 GitHub Repo: https://github.com/TofaelislamFaruk01/hero-io
 
 ---
 
